@@ -1,0 +1,261 @@
+/*extra-Small devices (portrait phones, less than 576p*/
+@media (max-width: 575.98px) {	
+            /*header start*/
+header {
+    padding: 13px 5px;
+}            
+.logo img {
+    width: 60px;
+}
+.logo h1 {
+    font-size: 20px;
+}
+.menu ul li a {
+    padding: 3px 5px !important;
+}
+.btn_cstm {
+    margin-left: 4px;
+}
+            /*hero start*/
+.hero {
+    padding-bottom: 30px;
+}
+.h_text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.hh1 {
+    margin: 18px 10px 18px;
+    font-size: 35px;
+    line-height: 50px;
+}
+.hp2 {
+    line-height: 30px;
+}
+.h_btn {
+    margin-top: 25px;
+    padding: 10px 30px;
+}
+                /*feature*/
+.feature {
+    padding-bottom: 50px;
+}
+.f_item {
+    margin-top: 30px;
+    padding: 40px 0 35px;
+}                
+                /*course*/
+.cr_text {
+    margin-bottom: 20px;
+}                
+.cr_left img, .cr_right img{
+    width: 20px;
+}
+.cr_left span, .cr_right span{
+    font-size: 15px;
+}             
+                /*testimony*/
+.testimony {
+    margin: 25px 0 65px;
+}                
+.t_img img {
+    padding: 0 45px 35px;
+} 
+.tp1 {
+    text-align: center;
+}               
+                
+                /*footer*/
+.fp1 p{
+    text-align: center;
+}   
+.f_fp1{
+    margin-bottom: 40px;
+} 
+.fp2 {
+    margin: 0;
+}            
+.ft2 ul {
+    padding: 0 0 20px 0;
+} 
+.ft2 ul li a {
+    padding: 0px 0 2px 0;
+}               
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+            /*header start*/
+.menu ul li a {
+    padding: 6px 5px !important;
+}
+.btn_cstm {
+    margin-left: 4px;
+    margin-top: 6px;
+}
+            /*hero start*/
+.hero {
+    padding-bottom: 60px;
+}
+.h_text{
+     margin-top: 50px;
+    text-align: center;
+}
+
+.hh1 {
+    margin: 16px 105px 16px;
+    font-size: 37px;
+    line-height: 52px;
+}
+.hp2 {
+    margin: 0 35px;
+    line-height: 30px;
+}
+.h_btn {
+    margin-top: 26px;
+}
+.h_img {
+    margin: 0 50px;
+}
+                /*feature*/
+.feature {
+    padding-bottom: 50px;
+}                
+               /*course*/
+.cr_text {
+    margin-bottom: 30px;
+}                
+.cr_item {
+    margin: 0 60px 0;
+}
+                /*testimony	*/
+.testimony {
+    margin: 50px 0 50px;
+}                
+.t_img img {
+    padding: 0 140px 35px;
+}
+.tp1 {
+    text-align: center;
+}
+                /*footer*/
+footer {
+    text-align: center;
+}                
+.fp1 {
+    margin: 0 40px 40px 40px;
+}
+.ft2 ul li a {
+    padding: 0px 0 1px 0;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+            /*header start*/
+.menu ul li a {
+    padding: 5px 5px !important;
+}
+.btn_cstm {
+    margin-left: 4px;
+    margin-top: 10px;
+}
+                /*hero start*/
+.h_text{
+     margin-top: 55px;
+    text-align: center;
+}
+
+.hh1 {
+    margin: 10px 170px 10px;
+    font-size: 40px;
+    line-height: 55px;
+}
+.hp2 {
+    margin: 0 70px;
+    line-height: 30px;
+}
+.h_img {
+    margin: 0 70px;   
+}
+                /*feature*/
+.feature {
+    padding-bottom: 45px;
+}                
+                /*course*/
+.cr_text {
+    margin-bottom: 40px;
+}                
+.cr_item {
+    margin: 0 80px 0;
+}
+
+                /*testimony*/
+.testimony {
+    margin: 60px 0 60px;
+}                
+.t_img img {
+    padding: 0 0 0;
+}
+.tp1 {
+    margin: 0 10px;
+}
+                /*footer*/
+footer {
+    text-align: center;
+}                
+.fp1 {
+    margin: 0 40px 40px 40px;
+}
+.ft2 ul li a {
+    padding: 0px 0 3px 0;
+} 
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+                /*header*/
+.btn_cstm {
+    margin:0 25px 0 15px;
+}
+                /*hero start*/
+
+.hh1 {
+    font-size: 45px; 
+    line-height: 65px;
+    margin: 10px 90px 10px 0;
+}
+.hp2 {
+    margin-right: 65px;
+}
+.h_img img {
+    width: 100%;
+}
+                 /*course */
+.cr_left img, .cr_right img{
+    width: 20px;
+}
+.cr_left span, .cr_right span{
+    font-size: 15px;
+}
+                /*footer*/
+.fp1 {
+    margin: 0 60px 0 0;
+}
+.ft2 ul li a {
+    padding: 0px 0 5px 0;
+}               
+}
+
+/*extra-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*extra-extra-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
